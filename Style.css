@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #011F3F;
+}
+
+.container {
+    text-align: center;
+}
+
+#level-title {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 20px;
+}
+
+.btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.green { background-color: #4CAF50; }
+.red { background-color: #F44336; }
+.yellow { background-color: #FFEB3B; }
+.blue { background-color: #2196F3; }
+
+.pressed {
+    opacity: 0.5;
+}
